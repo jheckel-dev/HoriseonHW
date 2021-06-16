@@ -1,0 +1,202 @@
+/* sets border around screen */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* sets body background color */
+body {
+    background-color: #d9dcd6;
+}
+/* sets header properties, space form border, font family, background and text color. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* sets header properties, displays in a block line, font size. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* sets 'seo' in header color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* sets header properties, space from border, top space, float right on screen, font family and size. */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* sets list style to unordered in header. */
+.header div ul {
+    list-style-type: none;
+}
+/* sets header list items to display in a block line and a space to the left. */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+/* sets color of anchored elements. */
+a, p {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* sets paragraph font size. */
+p {
+    font-size: 16px;
+}
+/* sets main image height and width, adds bottom space, sets it as background image so page items can appear over top, keep simage center to page. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* sets SEO, ORM, and SMM containers to float left with space to the right. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* sets LG, BA, CM container to float right with space to the left. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* sets SEO, ORM, and SMM container properties width, display in block line, space to the left. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* sets benefits container to have space to the right, space from border, float to the right, height and width, font family, and background color. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* sets benefit lead bottom space and text color. */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* sets benefit brand bottom space and color. */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* sets benefit cost bottom space and color. */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* sets benefit lead header bottom space aligns text to center of container. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* adds bottom space to brand header text and aligns text center to container. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* adds bottom space to cost header text and aligns text to center of container. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* lead image properties to display in a block, maintain a space from text, and max width. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*brand img properties to display in block, maintain a space form text, and max width. */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* cost image properties to display in a block, maintain a space, and a max width*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* sets SEO text properties, adds bottom space, adds space from border, container height, font family, background and text colors. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* sets OPM text properties, bottom space, space form border, container height, font family, background and font colors. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* sets SMM properties, bottom space, space from border, container height, font family, background and text color. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* sets SEO img max height */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* sets ORM img max height. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* sets SMM img max height. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* sets SEO heading properties, bottom space and text size. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* sets ORM heading properties, bottom space and text size. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* sets SMM heading properties, bottom space and text size. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* sets footer properties, space from border, sets float properties, font family, and aligns text center to container. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* sets footer heading text size. */
+.footer h2 {
+    font-size: 20px;
+}
